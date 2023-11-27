@@ -1,5 +1,13 @@
 {
     "version": 2,
+    "functions": {
+        "api": {
+            "handler": "../../index.js",
+            "events": [
+                { "http": { "method": "GET", "path": "/api/*" } }
+            ]
+        }
+    },
     "builds": [
         { 
             "src": "index.js", 
