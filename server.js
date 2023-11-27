@@ -2,11 +2,11 @@ require('dotenv').config()
 
 const express = require('express')
 const mongoose = require('mongoose')
-const users = require('./Routes/users')
-const products = require('./Routes/products')
-const articles = require('./Routes/articles')
-const cart = require('./Routes/cart')
-const order = require('./Routes/ordering')
+const users = require('./src/Routes/users')
+const products = require('./src/Routes/products')
+const articles = require('./src/Routes/articles')
+const cart = require('./src/Routes/cart')
+const order = require('./src/Routes/ordering')
 
 // express app
 const app = express()
